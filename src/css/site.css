@@ -1,3 +1,27 @@
+a{
+  text-decoration: none;
+}
+.section-bd{
+  background-color: #ccc;
+}
+.section-novedades{
+  background-color: #aaa;
+}
+.section-redes{
+  background-color: #fff;
+}
+.btn-youtube{
+  background-color: #dd3939;
+}
+.btn-facebook{
+  background-color: #3b5998;
+}
+.btn-twitter{
+  background-color: #55acee;
+}
+footer{
+  background-color: #eee;
+}
 .carousel-inner {
     padding: 1em;
   }
