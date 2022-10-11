@@ -1,17 +1,426 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="TEPJF">
+    <title>TEPJF | DGD | CENDOC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/site.css">
+    <meta name="theme-color" content="#712cf9">
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+    <main>
+        <section class="shadow py-2">
+            <div class="py-2 px-1 bg-white">
+                <div class="row align-items-center">
+                    <div class="col text-start">
+                        <a href="/" target="_self" class="mr-2" id="Inicio" aria-label="Boton Inicio"
+                            style="text-decoration: none;">
+                            <i class="bi bi-house-door-fill fs-5"></i>
+                        </a>
+                        <a href="mailto:contactoweb@te.gob.mx?Subject=Contacto%20TEPJF" aria-label="Correo contacto web"
+                            style="text-decoration: none;" title="se abrirá aplicación de correo">
+                            <i class="bi bi-envelope-fill fs-5"></i>
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a href="https://www.te.gob.mx/" class="">
+                            <img src="img/tepjf.svg" height="72" class="mx-auto d-block logoHeader"
+                                alt="Tribunal Electoral del Poder Judicial de la Federación">
+                        </a>
+                    </div>
+                    <div class="col text-end">
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://www.te.gob.mx/front3/contents/index/14/" target="blank" class="mr-2"
+                                    style="text-decoration: none;">
+                                    <img src="img/cendoc.jpg" height="72"
+                                        alt="Portal de consulta de medios de impugnación"
+                                        title="Portal de consulta de medios de impugnación">
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="https://www.facebook.com/TEPJF" target="blank" class="mr-2"
+                                    aria-label="Redes Sociales Facebook" style="text-decoration: none;">
+                                    <i class="bi bi-facebook fs-5"></i>
+                                </a>
+                                <a href="https://twitter.com/TEPJF_informa" target="blank" class="mr-2"
+                                    aria-label="Redes Sociales Twitter" style="text-decoration: none;">
+                                    <i class="bi bi-twitter fs-5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 container">
+            <div class="text-center">
+                <h1 class="display-5">Centro de Documentación “María Lavalle Urbina”</h1>
+                <h2 class="display-6">Dirección General de Documentación</h2>
+                <h3 class="fw-light">Tribunal Electoral del Poder Judicial de la Federación</h3>
+            </div>
+            <hr>
+            <p class="lead text-left text-muted">
+                Ofrecemos a la comunidad institucional del TEPJF y al
+                público interesado, multiples servicios y recursos en materia electoral.
+            <ol>
+                <li>Préstamo de materiales. Los usuarios deben acudir a las instalaciones de los centros
+                    de documentación, donde, luego de mostrar una identificación oficial, podrán solicitar al
+                    funcionario responsable los materiales de su interés y consultarlos dentro de las
+                    instalaciones.
+                </li>
+                <li>
+                    Préstamo interbibliotecario. Tiene como objetivo proporcionar material bibliográfico que no se
+                    encuentre en el centro de documentación.
+                </li>
+                <li>
+                    Asesoría y búsqueda de información. Es la asistencia personal que el bibliotecario brinda,
+                    para la localización y recuperación de información específica para la obtención de
+                    documentos.
+                </li>
+                <li>
+                    Servicio de consulta de bases de datos. Pone a disposición de los usuarios la consulta de
+                    bases de datos en texto completo, de manera gratuita.</p>
+                </li>
+            </ol>
+            </p>
+        </section>
+        <section class="" style="background-color: #ccc;">
+            <div class="album py-5">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://www.te.gob.mx/eje/">
+                                <img src="img/eje.jpg" title="Escue">
+                                <div class="card-body">
+                                    <h5>
+                                        Escuela Judicial Electoral
+                                    </h5>
+                                    <p class="card-text">Institución educativa especializada en materia electoral,
+                                        perteneciente al TEPJF.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://te.gob.mx/publicaciones/">
+                                <img src="img/editorial.jpg" title="Editorial del TEPJF">
+                                <div class="card-body">
+                                    <h5>
+                                        Editorial del TEPJF
+                                    </h5>
+                                    <p class="card-text">Publicaciones especializadas en temas de derecho electoral de
+                                        fácil acceso a la ciudadanía.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://catalogo.te.gob.mx/opac/">
+                                <img src="img/janium.jpg" title="Janium">
+                                <div class="card-body">
+                                    <h5>Catálogo bibliográfico del TEPJF</h5>
+                                    <p class="card-text">De los centros de documentación del Tribunal Electoral del
+                                        Poder Judicial de la Federación.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://www.tirantonline.com.mx/">
+                                <img src="img/tirant.jpg" title="Tirant Online">
+                                <div class="card-body">
+                                    <h5>
+                                        Tirant Online Premium
+                                    </h5>
+                                    <p class="card-text">Editorial Académica que abarca: Ciencias Sociales, Humanidades
+                                        y Jurídicas.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://www.jstor.org/">
+                                <img src="img/jstor.jpg" title="Jtor">
+                                <div class="card-body">
+                                    <h5>
+                                        Jstor
+                                    </h5>
+                                    <p class="card-text">Biblioteca digital con acceso a artículos de revistas, libros,
+                                        imágenes y fuentes primarias.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://biblioteca.nubedelectura.com/">
+                                <img src="img/nube.jpg" title="Nube de lectura">
+                                <div class="card-body">
+                                    <h5>
+                                        Nube de lectura
+                                    </h5>
+                                    <p class="card-text">Biblioteca digital con interface de lectura que dispone de
+                                        todas las funciones de las bibliotecas físicas.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="Interbibliotecario.html">
+                                <img src="img/interbibliotecario.jpg" title=" Préstamo interbibliotecario">
+                                <div class="card-body">
+                                    <h5>
+                                        Préstamo interbibliotecario
+                                    </h5>
+                                    <p class="card-text">Convenio con instituciones para facilitar libros que no se
+                                        encuentran en el acervo del TEPJF.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://mic.te.gob.mx/">
+                                <img src="img/mic.jpg" title="Janium">
+                                <div class="card-body">
+                                    <h5>
+                                        Museo Interactivo de la Constitución
+                                    </h5>
+                                    <p class="card-text">Cultura democratica, derechos políticos su evolución
+                                        constitucional y convencional, así como su tutela judicial efectiva.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://www.te.gob.mx/legislacion/">
+                                <img src="img/legislacion.jpg" title="Legislación">
+                                <div class="card-body">
+                                    <h5>
+                                        Legislación
+                                    </h5>
+                                    <p class="card-text">Relación cronológica de reformas a Constituciones, leyes y
+                                        reglamentos, con base en decretos publicados oficialmente.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://www.te.gob.mx/IUSEapp/">
+                                <img src="img/ius.jpg" title="IUS Electoral">
+                                <div class="card-body">
+                                    <h5>
+                                        IUS Electoral
+                                    </h5>
+                                    <p class="card-text">Mecanismo de consulta, que incluye todas las épocas de
+                                        jurisprudencia y tesis emitidas desde 1997 hasta la fecha.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://www.te.gob.mx/buscador/">
+                                <img src="img/sentencias.jpg" title="IUS Electoral">
+                                <div class="card-body">
+                                    <h5>
+                                        Consulta de Sentencias
+                                    </h5>
+                                    <p class="card-text">Asuntos resueltos en sesión del TEPJF agrupandos por tema, y en
+                                        su caso leer el texto completo del engrose de los asuntos.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card h-100 shadow-sm text-decoration-none text-dark"
+                                href="https://www.te.gob.mx/estudios_te/">
+                                <img src="img/estudios.jpg" title="IUS Electoral">
+                                <div class="card-body">
+                                    <h5>
+                                        Estudios Constitucionales Electorales
+                                    </h5>
+                                    <p class="card-text">Actividades en materia jurídico-parlamentaria desde la
+                                        Secretaría Técnica de Estudios Constitucionales Electorales.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="" style="background-color: #aaa;">
+            <div class="container">
+                <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a class="book-container" title="¿Política confinada?: nuevas tecnologías y toma de decisiones en un contexto de pandemia / José María Reniu Vilamala, Juan Víctor Meseguer Sánchez, directores ; prólogo Robert Krimmer y David Dueñas-Cid ; José María Reniu Vilamala [y otros veinticinco autores]."
+                                href="http://catalogo.te.gob.mx/janium-bin/janium_login_opac.pl?find&ficha_no=69103"
+                                target="_blank" rel="noreferrer noopener">
+                                <div class="book">
+                                    <img alt="Portada" src="https://catalogo.te.gob.mx/janium/Portadas/51567Ca.jpg" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a class="book-container" title="¿Qué es la democracia electrónica?: la transición política por la transformación digital de la democracia / Jorge Francisco Aguirre Sala."
+                                href="http://catalogo.te.gob.mx/janium-bin/janium_login_opac.pl?find&ficha_no=69689"
+                                target="_blank" rel="noreferrer noopener">
+                                <div class="book">
+                                    <img alt="Novedades" src="https://catalogo.te.gob.mx/janium/Portadas/51800Ca.jpg" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a class="book-container" title="¿Quién manda aquí?: la crisis global de la democracia representativa / Felipe González [y otros diez autores] ; edición de Felipe González, José Fernández-Albertos y Gerson Damiani."
+                                href="http://catalogo.te.gob.mx/janium-bin/janium_login_opac.pl?find&ficha_no=69441"
+                                target="_blank" rel="noreferrer noopener">
+                                <div class="book">
+                                    <img alt="Novedades" src="https://catalogo.te.gob.mx/janium/Portadas/51671Ca.jpg" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a class="book-container" title="500 años: el complejo de dos mundos (hacia una visión panorámica) / Raúl Contreras Bustamante, Víctor Manuel Garay Garzón, Jesús de la fuente Rodríguez [otro coordinador]; Rubén Francisco Pérez Sánchez [y otros nueve autores]. ** [Quinientos] años: el complejo de dos mundos (hacia una visión panorámica)."
+                                href="http://catalogo.te.gob.mx/janium-bin/janium_login_opac.pl?find&ficha_no=69476"
+                                target="_blank" rel="noreferrer noopener">
+                                <div class="book">
+                                    <img alt="Novedades" src="https://catalogo.te.gob.mx/janium/Portadas/51141Ca.jpg" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a class="book-container" title="4 20: momento de regular el cannabis y revisar la política de drogas (en México y el mundo) / Imer B. Flores, editor ; prólogo Enrique Graue Wiechers ; Robert A. Mikos [y otros siete autores]. ** [Cuatro veinte]: momento de regular el cannabis y revisar la política de drogas (en México y el mundo)."
+                                href="http://catalogo.te.gob.mx/janium-bin/janium_login_opac.pl?find&ficha_no=69157"
+                                target="_blank" rel="noreferrer noopener">
+                                <div class="book">
+                                    <img alt="Novedades" src="https://catalogo.te.gob.mx/janium/Portadas/51438Ca.jpg" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a class="book-container" title="A history of infamy. Crime, truth, and justice in Mexico. spa ** Historia nacional de la infamia: crimen, verdad y justicia en México / Pablo Piccato ; traducción de Claudia Itzkowich."
+                                href="http://catalogo.te.gob.mx/janium-bin/janium_login_opac.pl?find&ficha_no=69163"
+                                target="_blank" rel="noreferrer noopener">
+                                <div class="book">
+                                    <img alt="Novedades" src="https://catalogo.te.gob.mx/janium/Portadas/51586Ca.jpg" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="" style="background-color: #fff;">
+            <div class="py-5 container">
+                <div class="row text-center">
+                    <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/tepjflogo.jpg"
+                            title="tepjf">
+                        <p class="pt-4">
+                            <a class="btn btn-black m-1 " style="background-color: #dd4b39;"
+                                href="https://www.youtube.com/c/tepjf" role="button">
+                                <i class="bi bi-youtube fs-4 text-white"></i></a>
+                            <a class="btn btn-black m-1" style="background-color: #3b5998;"
+                                href="https://www.facebook.com/TEPJF" role="button">
+                                <i class="bi bi-facebook fs-4 text-white"></i></a>
+                            <a class="btn btn-black m-1" style="background-color: #55acee;"
+                                href="https://twitter.com/TEPJF_informa" role="button">
+                                <i class="bi bi-twitter fs-4 text-white"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            src="img/editoriallogo.jpg" title="tepjf">
+                        <p class="pt-4">
+                            <a class="btn btn-black m-1 " style="background-color: #dd4b39;"
+                                href="https://www.youtube.com/c/UC7lZp5wjOG-JpEaZPWB3aVw" role="button">
+                                <i class="bi bi-youtube fs-4 text-white"></i></a>
+                            <a class="btn btn-black m-1" style="background-color: #3b5998;"
+                                href="https://www.facebook.com/EDITORIALDELTEPJF" role="button">
+                                <i class="bi bi-facebook fs-4 text-white"></i></a>
+                            <a class="btn btn-black m-1" style="background-color: #55acee;"
+                                href="https://twitter.com/TEPJF_EJE" role="button">
+                                <i class="bi bi-twitter fs-4 text-white"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/ejelogo.jpg"
+                            title="tepjf">
+                        <p class="pt-4">
+                            <a class="btn btn-black m-1 " style="background-color: #dd4b39;"
+                                href="https://www.youtube.com/c/eje" role="button">
+                                <i class="bi bi-youtube fs-4 text-white"></i></a>
+                            <a class="btn btn-black m-1" style="background-color: #3b5998;"
+                                href="https://www.facebook.com/EscuelaJudicialElectoral" role="button">
+                                <i class="bi bi-facebook fs-4 text-white"></i></a>
+                            <a class="btn btn-black m-1" style="background-color: #55acee;"
+                                href="https://twitter.com/EditorialTEPJF" role="button">
+                                <i class="bi bi-twitter fs-4 text-white"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center font-small" style="background-color: #eee;">
+        <div class="row">
+            <div class="col-12 col-md pt-4">
+                Dirección General de Documentación<br>
+                Teléfonos 55-5728-2300 y 55-5728-2400, ext. 2206 y 2549.<br>
+                <a href="mailto:cedoc@te.gob.mx">cedoc@te.gob.mx</a>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 py-2">
+                <a class="html5 iconos_accesibilidad"
+                    href="https://validator.w3.org/nu?doc=https://www.te.gob.mx/cendoc" target="_blank"
+                    aria-label="Sello Accesibilidad" rel="noopener">
+                    <img class="img-fluid mt-4" src="https://www.te.gob.mx/media/images/portal/html5.png"
+                        alt="Validation HTML5">
+                </a>
+                <a class="css iconos_accesibilidad"
+                    href="http://jigsaw.w3.org/css-validator/validator?uri=https://www.te.gob.mx/cendoc/&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=es"
+                    target="_blank" aria-label="Sello Accesibilidad" rel="noopener">
+                    <img class="img-fluid mt-4" src="https://www.te.gob.mx/media/images/portal/css.png"
+                        alt="Validation CSS">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <div class="py-4 font-weight-bold">
+                    Tribunal Electoral del Poder Judicial de la Federación (TEPJF)<br>
+                    Teléfonos 55-5728-2300 y 55-5484-5410.<br>
+                    Todos los derechos reservados.
+                    <p><a href="https://www.te.gob.mx/transparencia/front/buscador/datos_personales#aviso"
+                            target="_blank" rel="noopener">Protección de Datos Personales</a></p>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+     <script src="js/site.js"></script> 
 </body>
 
 </html>
